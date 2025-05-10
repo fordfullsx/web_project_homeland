@@ -43,3 +43,32 @@
     line-height: 49px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .intro {
+    width: 288px;
+    margin: 0 auto 50px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 0 20px;
+  }
+
+  .intro__quote,
+  .intro__quote-author,
+  .intro__text {
+    width: 288px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .intro__quote {
+    margin: 0 0 8px;
+  }
+
+  .intro__quote-author {
+    margin: 0 0 24px;
+  }
+}
