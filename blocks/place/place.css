@@ -1,0 +1,30 @@
+.places {
+  max-width: 984px;
+  margin: 0 auto 92px;
+  padding: 0 48px;
+}
+
+.place {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  gap: 48px 40px;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    gap: 48px 28px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places {
+    padding: 0;
+  }
+  .place {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0 16px;
+  }
+}

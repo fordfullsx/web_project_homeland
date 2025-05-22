@@ -5,5 +5,13 @@
 @import url(../blocks/intro.css);
 @import url(../blocks/footer.css);
 @import url(../blocks/photo-grid.css);
-@import url(../blocks/places.css);
 @import url(../blocks/cover.css);
+
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place_website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__artist/place__artist.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/place/__button/place__button.css);
